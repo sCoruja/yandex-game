@@ -1,3 +1,3 @@
-export const Topic = () => {
-  return <p>Topic page</p>
-}
+export const TopicPage = () => {
+    return <p>Topic page</p>;
+};
