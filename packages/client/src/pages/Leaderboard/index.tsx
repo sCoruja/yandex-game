@@ -1,3 +1,3 @@
 export const LeaderboardPage = () => {
-  return <p>Leaderboard page</p>
-}
+    return <p>Leaderboard page</p>;
+};

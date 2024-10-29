@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export type LayoutProps = {
-  children: React.ReactNode
-}
+    children: React.ReactNode;
+};
 
 export const Layout = ({ children }: LayoutProps) => {
-  return <>{children}</>
-}
+    return <>{children}</>;
+};
