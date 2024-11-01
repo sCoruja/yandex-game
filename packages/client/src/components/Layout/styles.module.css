@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo-icon {
+    height: 48px;
+    width: 48px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+.list-item {
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+    color: #ca5f38;
+    transition: ease 0.3s;
+}
+.link:hover {
+    opacity: 0.7;
+}
+.main {
+}

@@ -1,0 +1,18 @@
+.screenshot {
+    width: 800px;
+}
+.button {
+    text-decoration: none;
+    color: #ca5f38;
+    border: 1px solid #ca5f38;
+    padding: 6px 24px;
+    border-radius: 8px;
+    transition: ease 0.5s;
+}
+.button:hover {
+    background: #ca5f38;
+    color: #ffffff;
+}
+.leaderboard-img {
+    width: 200px;
+}

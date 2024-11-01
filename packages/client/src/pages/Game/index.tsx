@@ -15,23 +15,29 @@ export const GamePage = () => {
         game.renderplayer();
         function keyDownHandler(e: KeyboardEvent) {
             if (e.key == "ArrowLeft") {
+                e.preventDefault();
                 game.moveKeyDownHandler("left");
             }
             if (e.key == "ArrowUp") {
+                e.preventDefault();
                 game.jumpKeyDownHandler();
             }
             if (e.key == "ArrowRight") {
+                e.preventDefault();
                 game.moveKeyDownHandler("right");
             }
         }
         function keyUpHandler(e: KeyboardEvent) {
             if (e.key == "ArrowLeft") {
+                e.preventDefault();
                 game.moveKeyUpHandler();
             }
             if (e.key == "ArrowUp") {
+                e.preventDefault();
                 game.jumpKeyUpHandler();
             }
             if (e.key == "ArrowRight") {
+                e.preventDefault();
                 game.moveKeyUpHandler();
             }
         }
@@ -45,7 +51,6 @@ export const GamePage = () => {
     }, []);
     return (
         <>
-            <p>Game will be here!</p>
             <canvas
                 ref={canvasRef}
                 height={20 * blockSize}
